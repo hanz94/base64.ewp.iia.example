@@ -294,7 +294,7 @@ function ModuleCsv() {
                             </Typography>
                         </Box>
                     }>
-                        <IconButton sx={{ mt: 0.3 }} onClick={() => handleDownloadXLSX(data, t)}>
+                        <IconButton sx={{ mt: 0.3, alignSelf: 'center' }} onClick={() => handleDownloadXLSX(data, t)}>
                             <DownloadIcon />
                         </IconButton>
                     </Tooltip>
